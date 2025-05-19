@@ -1,1 +1,0 @@
-# email-alert-console-activity
