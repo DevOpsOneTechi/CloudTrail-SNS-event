@@ -1,1 +1,1 @@
-notification_email = "techOsp.buddy@gmail.com"
+notification_email = "techOps.buddy@gmail.com"
