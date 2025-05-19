@@ -1,1 +1,1 @@
-# email-alert-console-activity
+cloud-trail-event-sns
