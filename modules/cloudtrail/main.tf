@@ -49,7 +49,7 @@ resource "aws_cloudwatch_log_group" "trail" {
   retention_in_days = 7
 }
 
-resource "aws_iam_role" "cloudtrail_role" {
+resource "aws_iam_role" "cloudtrail_role1" {
   name = "cloudtrail-cloudwatch-role"
 
   assume_role_policy = jsonencode({
