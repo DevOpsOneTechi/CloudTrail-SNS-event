@@ -1,1 +1,1 @@
-# email-alert-console-activity
+# CloudTrail-SNS-event
