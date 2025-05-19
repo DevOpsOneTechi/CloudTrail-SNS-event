@@ -88,7 +88,7 @@ resource "aws_cloudtrail" "trail" {
   is_multi_region_trail         = true
   enable_log_file_validation    = true
   enable_logging                = true
-  cloud_watch_logs_role_arn     = aws_iam_role.cloudtrail_role.arn
+  cloud_watch_logs_role_arn     = aws_iam_role.cloudtrail_role1.arn
   cloud_watch_logs_group_arn    = "${aws_cloudwatch_log_group.trail.arn}:*"
 
   depends_on = [
