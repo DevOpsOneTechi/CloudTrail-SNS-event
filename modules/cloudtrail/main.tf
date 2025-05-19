@@ -66,7 +66,7 @@ resource "aws_iam_role" "cloudtrail_role1" {
 
 resource "aws_iam_role_policy" "cloudtrail_policy" {
   name = "cloudtrail-cloudwatch-policy"
-  role = aws_iam_role.cloudtrail_role.id
+  role = aws_iam_role.cloudtrail_role1.id
 
   policy = jsonencode({
     Version = "2012-10-17"
